@@ -5,9 +5,9 @@
 - **Compiler:** g++ (GNU Compiler Collection)
 - **IDE:** VS Code
 
-## Theory
+## 📚 Theory
 
-### Topic Overview
+### 🔹 Overview
 This experiment serves as an introduction to the C++ programming language, focusing on:
 - The structure and syntax of a basic C++ program
 - Standard Input/Output operations
@@ -32,7 +32,7 @@ This program performs basic arithmetic operations (`+`, `-`, `*`, `/`) on two us
 - Arithmetic operators
 - Error handling for division by zero
 
-#### Algorithm:
+### 🧮 Algorithm
 1. Start
 2. Read first number
 3. Read operator
