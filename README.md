@@ -1,6 +1,6 @@
 # Introduction to C++ and OOPS, Variables, Data Types, I/O Operations
 
-## Tools Used
+## 🛠️ Tools Used
 - **Language:** C++
 - **Compiler:** g++ (GNU Compiler Collection)
 - **IDE:** VS Code
