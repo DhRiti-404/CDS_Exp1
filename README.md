@@ -1,26 +1,56 @@
-EXPERIMENT 1: Hello World and Basic Calculator Program (C++)
-Aim:
-To write and execute a basic "Hello World" program in C++.
-To create a simple calculator in C++ that performs basic arithmetic operations.
-Apparatus
-Programiz Online Compiler or Visual Studio (VS)
-Theory
-Hello World
-The "Hello World" program is a basic starting point in learning any programming language. It helps in understanding the basic syntax of C++, including the main() function, output statements, and the general structure of a C++ program.
+# Introduction to C++ and OOPS, Variables, Data Types, I/O Operations
 
-Calculator Program
-The calculator program demonstrates how to take user input and perform operations such as addition, subtraction, multiplication, and division. It introduces essential programming concepts in C++ like input/output handling, conditional statements, and arithmetic operators.
+## Tools Used
+- **Language:** C++
+- **Compiler:** g++ (GNU Compiler Collection)
+- **IDE:** VS Code
 
-Functions
-Hello World
-Displays a message on the screen.
-Demonstrates basic program structure in C++.
-Verifies that the compiler and environment are working correctly.
-Calculator
-Takes two numerical inputs from the user.
-Allows the user to select an arithmetic operation.
-Performs the selected operation using conditional logic.
-Outputs the result.
-Handles basic errors like division by zero.
-Conclusion
-Through this lab, I learned how to write a basic C++ program and understood the structure and syntax of the language. The Hello World program helped me get familiar with the environment, and the calculator program taught me how to take user input, use conditional statements, and perform arithmetic operations. This exercise built my confidence in using C++ for problem-solving.
+## Theory
+
+### Topic Overview
+This experiment serves as an introduction to the C++ programming language, focusing on:
+- The structure and syntax of a basic C++ program
+- Standard Input/Output operations
+- Variable declaration and usage
+- Data types in C++
+- Simple arithmetic operations using operators
+
+---
+
+### Program 1: `exp1A.cpp` - Basic C++ Structure
+This program prints a simple message **"Hello, World!"** to demonstrate:
+- Basic syntax
+- Use of `#include`, `main()` function
+- Output using `cout`
+
+---
+
+### Program 2: `exp1B.cpp` - Arithmetic Calculator
+This program performs basic arithmetic operations (`+`, `-`, `*`, `/`) on two user-input numbers. It uses:
+- Input via `cin`
+- Conditional statements (`if`, `else if`, `else`)
+- Arithmetic operators
+- Error handling for division by zero
+
+#### Algorithm:
+1. Start
+2. Read first number
+3. Read operator
+4. Read second number
+5. Perform operation based on operator:
+   - Add if `+`
+   - Subtract if `-`
+   - Multiply if `*`
+   - Divide if `/` and divisor ≠ 0
+6. Display result or error message
+7. End
+
+---
+
+## Conclusion
+This experiment introduces me to the fundamental building blocks of C++:
+- Writing and compiling C++ code
+- Performing input/output operations
+- Using arithmetic and logical constructs
+
+These programs lay the foundation for further learning in Object-Oriented Programming and advanced C++ features.
